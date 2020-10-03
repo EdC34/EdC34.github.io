@@ -17,19 +17,40 @@ a {
 .grid-item-1 {
     display: grid;
 }
-.grid-item-2 {
-    display: grid;
-}
 #abouthed {
     font-size: 30px;
 }
 #Luna {
     width: 35%;
     padding-top: 1%;
+    border-radius: 50%;
+}
+#linkedinicon #githubicon {
+    display: flex;
+    align-items: center;
 }
 #projects {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+}
+#projectshed {
+    font-size: 30px;
+    padding-right: 2%;
+}
+#pizzapie {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: auto;
+}
+#websitescreen  { 
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: auto;
+}
+footer {
+    font-size: x-small;
 }
 /* p {
     background-color: black;
