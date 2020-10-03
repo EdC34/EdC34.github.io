@@ -6,6 +6,7 @@
     <title>Development Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/76f22f2c8b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -17,19 +18,33 @@
         </nav>
     </header>
     <main>
-        <section id="about">
-            <h4>About Me</h4>
-            <article>Who is Ed? You'll find out the answer when I fill this out later with a BRIEF BIO!</article>
-            <img src="images/Luna.jpg"/>
-            <p>Here's how you get ahold of me for your next project via my CONTACT INFO!</p>
-            <p>Woah, here's links to find my profiles on PROFESSIONAL NETWORKING SITES</p>
-            <ul>
-                <li>Skill 1</li>
-                <li>Skill 2</li>
-                <li>Skill 3</li>
-            </ul>
-            <p>other PERTINANT INFO!</p>
-        </section>
+        <div class="bio">
+            <section class="grid-item-1" id="about">
+                <h4 id="abouthed">About Me</h4>
+                <article>Ed Carroll is an aspiring full stack developer currently studying at We Can Code IT. A longtime computer and video game enthusiast, Ed came to software development after a career in journalism, where he frequently used HTML in content management systems to publish stories and other content. He's experimented with programing on a smaller scale but is excited to graduate from We Can Code IT in December and hopefully begin a career in programing.</article>
+                <img id="Luna" src="images/Luna.jpg"/>
+                <p>This is my dog Luna. Eventually, I will replace this with my headshot.</p>
+            </section>
+            <section class="grid-item-2" id="contact">
+                <p>To contact Ed for your next development project, please don't email Ed at <a href="mailto: notedsemail@gmail.com"> notedsemail@gmail.com</a>. Ed doesn't actually want people contacting him that way, it's just to fufill the assignment requirements!</p>
+                <p>Here's links to find my profiles on PROFESSIONAL NETWORKING SITES</p>
+                <a href = "https://www.linkedin.com/in/edscarroll/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/EdC34" target="_blank">
+                    <i class="fab fa-github-square"></i>
+                </a>
+            </section>
+            <section class="skills-list" id="skills">
+                <ul>By the end of this course, I will be proficent in:
+                    <li>C#</li>
+                    <li>HTML/CSS</li>
+                    <li>Java</li>
+                </ul>
+            </section>
+                <p>other PERTINANT INFO!</p>
+            </section>
+        </div>
         <section id="projects">
             <h4>Projects</h4>
             <article>Pizza Pie pizza ordering app!</article>

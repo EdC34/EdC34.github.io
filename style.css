@@ -1,9 +1,37 @@
 * {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 2;
+    padding: 5;
+}
+html {
+    background-color: lightslategrey
 }
 body {
-    width: 80%;
+    width: 100%;
 }
+a {
+    color: aliceblue;
+    box-shadow: antiquewhite;
+}
+.grid-item-1 {
+    display: grid;
+}
+.grid-item-2 {
+    display: grid;
+}
+#abouthed {
+    font-size: 30px;
+}
+#Luna {
+    width: 35%;
+    padding-top: 1%;
+}
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* p {
+    background-color: black;
+    color: white;
+} /*
