@@ -59,9 +59,10 @@ ul {
     border-radius: 50%;
 }
 
-#linkedin-icon #github-icon {
+.fa-linkedin-in .fa-github-square {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    width: 50%;
 }
 
 #projects {
