@@ -4,64 +4,84 @@
     margin: 2;
     padding: 5;
 }
+
 html {
     background-color: lightslategrey
 }
+
 body {
     width: 100%;
 }
+
+h1 {
+    align-content: space-between;
+}
+
 a {
     color: aliceblue;
     box-shadow: antiquewhite;
 }
+
 nav {
     display: flex;
     justify-content: space-around;
 }
-.aboutme {
+
+.about-me {
     display: grid;
 }
-.contactinfo {
+
+.contact-info {
     display: grid;
 }
+
 .skills-list {
     display: grid;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 10rem auto;
+    grid-template-rows: 1fr 4 fr 4fr 1fr;
     margin: 2rem auto;
     width: 500px;
 }
+
 ul {
     list-style: square;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 3;
 }
-#abouthed {
+
+#about-hed {
     font-size: 30px;
 }
+
 #Luna {
     width: 35%;
     padding-top: 1%;
     border-radius: 50%;
 }
-#linkedinicon #githubicon {
+
+#linkedin-icon #github-icon {
     display: flex;
     align-items: center;
 }
+
 #projects {
     display: flex;
     flex-wrap: nowrap;
 }
-#projectshed {
+
+#projects-hed {
     font-size: 30px;
     padding-right: 2%;
 }
+
 #pizzapie {
     display: flex;
     flex-direction: column;
     width: 10%;
     height: auto;
 }
-#websitescreen  { 
+
+#website-screen  { 
     display: flex;
     flex-direction: column;
     width: 10%;
