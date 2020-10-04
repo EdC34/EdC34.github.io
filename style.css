@@ -37,9 +37,11 @@ nav a:hover {
     display: grid;
     justify-content: space-around;
 }
+
 .social-sites {
     display: grid;
     grid-template: row;
+    grid-template-rows: repeat(2, 1fr);
     justify-content: space-around;
 }
 
@@ -48,17 +50,29 @@ nav a:hover {
 }
 
 .skills-list {
-    display: grid;
-    grid-template-columns: 10rem auto;
-    grid-template-rows: 1fr 4 fr 4fr 1fr;
-    margin: 2rem auto;
-    width: 500px;
+    display: flex;
+    margin: 0.5rem auto;
+    width: 50px;
 }
 
-ul {
+section ul {
+    padding-left: 1.5em;
     list-style: square;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 3;
+    margin: 1;
+}
+
+.all-projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+}
+
+#all-projects article {
+    background: #ccc;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
 }
 
 #about-hed {
@@ -66,21 +80,18 @@ ul {
 }
 
 #Luna {
-    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 25%;
     padding-top: 1%;
     border-radius: 50%;
-    align-items: center;
 }
 
 .fa-linkedin-in .fa-github-square {
     display: grid;
     grid-template-rows: auto;
     grid-row: auto;
-}
-
-#projects {
-    display: flex;
-    flex-wrap: nowrap;
 }
 
 #projects-hed {
@@ -101,6 +112,7 @@ ul {
     width: 10%;
     height: auto;
 }
+
 #virtual-pet {
     display: flex;
     flex-direction: column;
@@ -108,6 +120,7 @@ ul {
     height: auto;
     align-content: center;
 }
+
 footer {
     font-size: x-small;
 }
