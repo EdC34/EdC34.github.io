@@ -60,9 +60,9 @@ ul {
 }
 
 .fa-linkedin-in .fa-github-square {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-row: auto;
 }
 
 #projects {
