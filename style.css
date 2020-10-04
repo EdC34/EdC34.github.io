@@ -14,7 +14,8 @@ body {
 }
 
 h1 {
-    align-content: space-between;
+    display: flex;
+    justify-content: center;
 }
 
 a {
@@ -25,10 +26,21 @@ a {
 nav {
     display: flex;
     justify-content: space-around;
+    background-color: #333;
+    text-decoration: none;
+}
+nav a:hover {
+    background: #666;
 }
 
 .about-me {
     display: grid;
+    justify-content: space-around;
+}
+.social-sites {
+    display: grid;
+    grid-template: row;
+    justify-content: space-around;
 }
 
 .contact-info {
@@ -57,6 +69,7 @@ ul {
     width: 35%;
     padding-top: 1%;
     border-radius: 50%;
+    align-items: center;
 }
 
 .fa-linkedin-in .fa-github-square {
