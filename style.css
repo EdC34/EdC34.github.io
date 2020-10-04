@@ -14,8 +14,26 @@ a {
     color: aliceblue;
     box-shadow: antiquewhite;
 }
-.grid-item-1 {
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.aboutme {
     display: grid;
+}
+.contactinfo {
+    display: grid;
+}
+.skills-list {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    margin: 2rem auto;
+    width: 500px;
+}
+ul {
+    list-style: square;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 3;
 }
 #abouthed {
     font-size: 30px;
@@ -48,6 +66,13 @@ a {
     flex-direction: column;
     width: 10%;
     height: auto;
+}
+#virtual-pet {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: auto;
+    align-content: center;
 }
 footer {
     font-size: x-small;
