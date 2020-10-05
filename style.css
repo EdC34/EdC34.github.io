@@ -69,10 +69,29 @@ h4 {
     font-size: large;
     padding: 10px;
 }
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: square;
+}
+
 .about-me {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#all-projects {
+    display: grid;
+    grid-template-columns: repeat(3,  1fr);
 }
 
 #about-text {
@@ -95,8 +114,14 @@ h4 {
 #social-links {
     display: flex;
     justify-content: center;
-
 }
+
+#nb {
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+}
+
 /*
 .about-me {
 
