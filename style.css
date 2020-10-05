@@ -17,18 +17,22 @@ h1 {
     display: flex;
     justify-content: space-around;
 }
+footer {
+    font-size: xx-small;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(68, 68, 68);
+    text-decoration: none;
+}
 /*
 a {
     color: aliceblue;
     box-shadow: antiquewhite;
 }
 /*
-nav {
-    display: flex;
-    justify-content: space-around;
-    background-color: #333;
-    text-decoration: none;
-}
+
 /*
 nav a:hover {
     background: #666;
