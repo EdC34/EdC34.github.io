@@ -91,7 +91,20 @@ ul {
 
 #all-projects {
     display: grid;
-    grid-template-columns: repeat(3,  1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 1em;
+}
+
+#all-projects article {
+    background: #ccc;
+    padding: 1em;
+}
+
+#all-projects img {
+    width: 75px;
+    padding: 5px;
+    justify-content: center;
 }
 
 #about-text {
