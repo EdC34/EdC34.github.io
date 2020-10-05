@@ -1,38 +1,39 @@
 * {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    margin: 2;
-    padding: 5;
+    margin: 10;
+    padding: 15;
 }
 
 html {
     background-color: lightslategrey
 }
-
 body {
+    display: flex;
+    flex-direction: column;
     width: 100%;
 }
-
 h1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
-
+/*
 a {
     color: aliceblue;
     box-shadow: antiquewhite;
 }
-
+/*
 nav {
     display: flex;
     justify-content: space-around;
     background-color: #333;
     text-decoration: none;
 }
+/*
 nav a:hover {
     background: #666;
 }
-
+/*
 .about-me {
     display: grid;
     justify-content: space-around;
