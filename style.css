@@ -40,12 +40,12 @@ nav {
 }
 
 a {
-  color: goldenrod;
+  color: ghostwhite;
   text-decoration: none;
 }
 
 a:visited {
-  color: goldenrod;
+  color: ghostwhite;
 }
 
 a:hover {
@@ -97,6 +97,7 @@ ul {
 }
 
 #about-text {
+  padding-top: 10px;
   margin-left: 1rem;
   margin-right: 1rem;
 }
