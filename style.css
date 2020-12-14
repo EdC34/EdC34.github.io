@@ -20,6 +20,7 @@ header {
   flex-direction: row;
   font-size: x-large;
   font-weight: bolder;
+  flex-wrap: wrap;
   justify-content: space-around;
   color: ghostwhite;
   padding-bottom: 10px;
