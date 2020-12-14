@@ -91,9 +91,9 @@ ul {
 
 #all-projects {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
-  grid-column-gap: 1em;
+  grid-column-gap: 0.5em;
 }
 
 #all-projects article {
