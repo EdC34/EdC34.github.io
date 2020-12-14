@@ -20,8 +20,9 @@ header {
   flex-direction: row;
   font-size: x-large;
   font-weight: bolder;
-  justify-content: center;
+  justify-content: space-around;
   color: ghostwhite;
+  padding-bottom: 10px;
 }
 
 footer {
@@ -32,23 +33,23 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: rgb(68, 68, 68);
+  background-color: rgb(60, 60, 60);
   font-weight: bold;
   font-size: larger;
   text-decoration: unset;
 }
 
 a {
-  color: lightblue;
+  color: goldenrod;
   text-decoration: none;
 }
 
 a:visited {
-  color: darkcyan;
+  color: goldenrod;
 }
 
 a:hover {
-  color: lightseagreen;
+  color: mediumvioletred;
 }
 h2 {
   display: flex;
@@ -71,9 +72,9 @@ h4 {
 }
 
 ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
   list-style: square;
 }
 
@@ -89,28 +90,10 @@ ul {
   align-items: center;
 }
 
-#all-projects {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
-  grid-column-gap: 1em;
-  line-height: 1.618em;
-  /* box-sizing: border-box; */
-}
-
 #all-projects article {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
-  background: #ccc;
-  line-height: 1.618em;
-  margin: 0;
-  padding: 0;
-}
-
-#all-projects img {
-  width: 75px;
-  padding: 5px;
 }
 
 #about-text {
