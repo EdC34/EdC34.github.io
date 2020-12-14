@@ -90,28 +90,32 @@ ul {
 }
 
 #all-projects {
-  display: flex;
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
-  grid-column-gap: 0.5em;
+  grid-column-gap: 1em;
+  line-height: 1.618em;
+  /* box-sizing: border-box; */
 }
 
 #all-projects article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   background: #ccc;
-  padding: 1em;
+  line-height: 1.618em;
+  margin: 0;
+  padding: 0;
 }
 
 #all-projects img {
   width: 75px;
   padding: 5px;
-  justify-content: center;
 }
 
 #about-text {
   margin-left: 1rem;
   margin-right: 1rem;
-  flex-wrap: wrap;
-  align-items: center;
 }
 
 #headshot {
